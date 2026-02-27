@@ -479,6 +479,6 @@ fn (mut b Num) double_it() int {
 fn main() {
   mut score := Num(20)
   score = score.double_it()
-  println('The score is $score')
+  println('The score is ${score}')
 }
 ```
